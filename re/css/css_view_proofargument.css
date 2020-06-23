@@ -1,0 +1,73 @@
+#sort {
+    width: 5%;
+}
+
+#date {
+    width: 15%;
+}
+
+#offcate {
+    width: 60%;
+}
+
+#status {
+    width: 5%;
+}
+
+#detail {
+    width: 5%;
+}
+.font{
+    font-size: 14px;
+    font-family: 'Taviraj', sans-serif;
+}
+.modal-title{
+    font-family: 'prompt',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.label{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Taviraj', sans-serif;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+.badge-warning {
+    color: #fff;
+    background-color: #FAD7A0;
+    border: 1px solid #CA6F1E;
+}
+
+.badge-success {
+    background-color: #58D68D;
+    border: 1px solid #0B5345;
+}
+.badge-danger{
+    color: #fff;
+    background-color: #EC7063;
+    border: 1px solid #78281F ;
+}
+.tddetail {
+    text-align: center;
+}
+
+.fileicon {
+    font-size: 18px;
+    color: #D5DBDB;
+}
+
+.fileicon:hover {
+    cursor: pointer;
+    color: #5DADE2;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.datatime {
+    text-align: center;
+}
+
+.fa-file-alt{
+    margin-right: 0.5rem;
+}

@@ -1,0 +1,36 @@
+#idsort {
+    width: 5%;
+}
+
+#detail_activity_regis {
+    width: 60%;
+    text-align: center;
+}
+
+#person_control {
+    width: 20%;
+    text-align: center;
+}
+
+#manage {
+    width: 10%;
+    text-align: center;
+}
+
+#person_control {
+    text-align: center;
+}
+
+.DetailActivity {
+    display: grid;
+}
+
+.badge-success {
+    background-color: #58D68D;
+    border: 1px solid #0B5345;
+}
+.badge-danger{
+    color: #fff;
+    background-color: #EC7063;
+    border: 1px solid #78281F ;
+}

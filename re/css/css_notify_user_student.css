@@ -1,0 +1,630 @@
+
+.Content {
+    display: flex;
+    padding: 1rem;
+}
+
+.content{
+    padding: 0.5rem !important;
+}
+.NotifyDetail{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Content1 {
+    width: 100%;
+}
+
+.Content3 {
+    padding-left: 0.8rem;
+}
+
+.title {
+    font-size: 16px;
+    color: #525558;
+    font-weight: 600;
+}
+
+#iconcheck {
+    color: #2ECC71;
+    font-size: 20px;
+}
+
+.icon1 {
+    margin-right: 0.5rem;
+}
+
+#id_column {
+    width: 34px !important;
+}
+
+#date_commited {
+    width: 80px !important;
+}
+
+.Content2 {
+    width: 100%;
+}
+
+.PictureContent {
+    width: 100%;
+    height: 380px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.showfile {
+    display: grid;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-columns: 120px 120px 120px;
+}
+.ImgCheckThumbnail{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+.Doubly{
+    font-size: 10px;
+    margin: 0.5rem;
+    color: tomato;
+}
+.FileName{
+    font-size: 12px;
+    color: #1e3cb1;
+}
+.modal-title{
+    font-size: 16px;
+    font-family: 'prompt',sans-serif;
+    font-weight: 600;
+}
+
+.Delete_picture {
+    width: 100%;
+    text-align: right;
+}
+
+.Tag1 {
+    color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    padding: 0.8rem 0.2rem 0.2rem 1.2rem;
+    background: rgb(74, 35, 90);
+}
+
+.modal-header {
+    display: flex;
+    border-bottom: 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.modal-content {
+    background: #efefef;
+}
+
+p.msg {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #F4F6F6;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+.modal-content {
+    border: 0px
+}
+
+.modal-footer {
+    border-top: 0px;
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+#txt_oc {
+    width: 50%;
+}
+
+#txt_off {
+    width: 50%;
+}
+
+.fa-address-card-o {
+    color: #007bff;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 16px;
+}
+
+#number_id_student {
+    font-weight: 800;
+    color: #fff;
+    font-size: 12px;
+    background: #007bff;
+}
+
+.lablel {
+    width: 9rem;
+    font-family: 'Taviraj', serif;
+    margin: 1% 1% 1% 1%;
+}
+
+.lable_check {
+    font-family: 'Taviraj', serif;
+    font-size: 14px;
+    color: #566573;
+}
+
+.datacheck {
+    color: #25292d;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-size: 13px;
+    font-family: 'Taviraj', serif;
+}
+
+#iconfile {
+    color: #F5B041;
+    font-size: 20px;
+}
+
+#labletime {
+    width: 2rem;
+}
+
+.iconlabel {
+    margin: 1% 6% 1% 1%;
+    color: #423fa5;
+}
+
+.searchtool {
+    display: flex;
+}
+
+.selectsearch {
+    color: rgb(67, 16, 161);
+    width: 30%;
+    font-size: 12px;
+    padding: 0.5rem;
+    /* border: 1px solid #0e013e; */
+    border-right: 0px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    font-family: 'Taviraj', serif;
+    ;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(67, 16, 161);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+.select {
+    font-size: 14px;
+    font-family: 'Taviraj', serif;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Taviraj', serif;
+}
+
+.select:hover {
+    border: 1px solid rgb(67, 16, 161);
+}
+
+.input {
+    width: 10rem;
+    height: 1.8rem;
+    border-radius: 2px;
+    font-size: 14px;
+    font-family: 'Taviraj', serif;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 1px solid #CACFD2;
+}
+
+.input:hover {
+    border: 1px solid rgb(67, 16, 161);
+}
+
+.input:disabled {
+    color: #CACFD2;
+    background: rgb(244, 248, 248);
+    background: linear-gradient(0deg, rgba(244, 248, 248, 1) 0%, rgba(237, 235, 235, 1) 100%);
+    border: 1px solid #AAB7B8;
+    width: 10rem;
+    height: 1.8rem;
+    border-radius: 8px;
+}
+
+.GroupPersonTool {
+    display: flex;
+}
+
+.add_remove_person {
+    display: initial;
+    padding: 0.5rem;
+}
+
+.button1 {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.textarea {
+    width: 27rem;
+    font-size: 14px;
+}
+
+.person {
+    font-size: 14px;
+    font-family: 'Taviraj', serif;
+    background: #F8F9F9;
+    width: 100%;
+    height: 20rem;
+    padding: 0.5rem;
+    overflow-y: hidden;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(67, 16, 161);
+}
+
+.personcheck {
+    font-size: 14px;
+    font-family: 'Taviraj', serif;
+    background: #e9ecef;
+    width: 75%;
+    height: 20rem;
+    padding: 0.5rem;
+    overflow-y: hidden;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(67, 16, 161);
+    overflow-x: hidden;
+}
+
+.dataperson_check {
+    background: #f8f9fc;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    border: 1px solid #c7caec;
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+
+.data {
+    padding-left: 1.2rem;
+}
+
+.date {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.time {
+    width: 8rem;
+}
+
+.card .card-body {
+    padding: 1.88rem 1.81rem;
+    height: auto;
+}
+
+.iconstudent {
+    font-size: 30px;
+    color: #570a9e;
+}
+
+.detailstudent {
+    display: grid;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    background-color: #CCC;
+}
+
+.float {
+    position: fixed;
+    padding: 0.8rem;
+    width: 59px;
+    height: 50px;
+    bottom: 34rem;
+    right: 0rem;
+    background-color: #2ECC71;
+    color: #FFF;
+    border-radius: 2rem 0rem 0rem 2rem;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+
+.float:hover {
+    color: #F4D03F;
+    background-color: #E74C3C;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.my-float {
+    margin-top: 22px;
+}
+
+.btnsearch {
+    background-color: rgb(67, 16, 161);
+    padding: 0.6rem;
+    color: #fff;
+    width: 7%;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.btnsearch:hover {
+    background-color: rgb(119, 80, 192);
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 4;
+}
+
+#textboxsearch {
+    font-size: 14px;
+    padding: 0.5rem;
+    font-family: 'prompt', sans-serif;
+}
+
+.result {
+    color: #999;
+    margin: 0.5rem 4.0rem 0.5rem 0.5rem;
+    font-size: 12px;
+}
+
+#error_message_exp_place {
+    display: none;
+    margin: 0.5rem;
+    color: #ff5e44;
+    font-size: 12px;
+    font-family: 'prompt', sans-serif;
+    padding-left: 9.5rem;
+}
+
+#error_message_committed_date {
+    display: none;
+    margin: 0.5rem;
+    color: #ff5e44;
+    font-size: 12px;
+    font-family: 'prompt', sans-serif;
+    padding-left: 9.5rem;
+}
+
+#error_message_place {
+    display: none;
+    margin: 0.5rem;
+    color: #ff5e44;
+    font-size: 12px;
+    font-family: 'prompt', sans-serif;
+    padding-left: 9.5rem;
+}
+
+#error_message_offcat {
+    display: none;
+    margin: 0.5rem;
+    color: #ff5e44;
+    font-size: 12px;
+    font-family: 'prompt', sans-serif;
+    padding-left: 9.5rem;
+}
+
+#error_message_off {
+    display: none;
+    margin: 0.5rem;
+    color: #ff5e44;
+    font-size: 12px;
+    font-family: 'prompt', sans-serif;
+    padding-left: 9.5rem;
+}
+
+.person_resule {
+    display: flex;
+    border: 1px solid #423fa5;
+    border-radius: 0.5rem;
+    height: 6rem;
+}
+
+.img {
+    background-color: rgb(67, 16, 161);
+    width: 15%;
+    padding: 1.5rem;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.img:hover {
+    cursor: pointer;
+    background-color: rgb(89, 114, 226);
+    ;
+    transition: 0.3s;
+    opacity: 4;
+}
+
+.dataperson {
+    width: 100%;
+    color: rgb(67, 16, 161);
+    background: #e6f2f9;
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+    padding: 0.5rem;
+}
+
+#addicn {
+    color: #FFE;
+    font-size: 30px;
+}
+
+.filecontent {
+    height: 400px !important;
+    text-align: center;
+    padding: 4rem 5rem 1rem 1rem;
+}
+
+.filename {
+    font-size: 14px;
+}
+
+.message_file {
+    color: #c7c8c9;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+}
+
+.showpicture {
+    display: flex;
+    margin: 0.5rem;
+    background: white;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    border: 1px solid #8862e0;
+}
+
+.Imgfile {
+    margin: 0.5rem;
+    width: 15%;
+}
+
+.DeletePicture {
+    padding: 0.4rem;
+}
+
+.thumbnail {
+    max-width: 80px;
+    max-height: 50px;
+}
+
+#delete_picture {
+    color: #AAB7B8;
+}
+
+#delete_picture:hover {
+    cursor: pointer;
+    color: #E74C3C;
+}
+
+.file {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.Sizefile {
+    font-size: 9px;
+    color: #6e7073;
+}
+
+/* The snackbar - position it at the bottom and in the middle of the screen */
+
+#snackbar {
+    visibility: hidden;
+    /* Hidden by default. Visible on click */
+    min-width: 250px;
+    /* Set a default minimum width */
+    margin-left: -125px;
+    /* Divide value of min-width by 2 */
+    background-color: #333;
+    /* Black background color */
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    /* Centered text */
+    border-radius: 2px;
+    /* Rounded borders */
+    padding: 16px;
+    /* Padding */
+    position: fixed;
+    /* Sit on top of the screen */
+    z-index: 1;
+    /* Add a z-index if needed */
+    left: 50%;
+    /* Center the snackbar */
+    bottom: 30px;
+    /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+
+#snackbar.show {
+    visibility: visible;
+    /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+
+/* Respondsive on mobile */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .Content {
+        display: block;
+    }
+    .input {
+        width: 100% !important;
+    }
+    #txt_oc{
+        width: 100%;
+    }
+    #txt_off{
+        width: 100%;
+    }
+}
+
+/* Animations to fade the snackbar in and out */
+
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}

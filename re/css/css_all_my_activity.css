@@ -1,0 +1,25 @@
+.DetailActivity {
+    display: grid;
+}
+#idsort {
+    width: 5%;
+}
+
+#detail_activity_regis {
+    width: 60%;
+    text-align: center;
+}
+
+#person_control {
+    width: 20%;
+    text-align: center;
+}
+
+#manage {
+    width: 10%;
+    text-align: center;
+}
+
+#person_control {
+    text-align: center;
+}

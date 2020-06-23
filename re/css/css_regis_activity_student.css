@@ -1,0 +1,85 @@
+.ShowActivity{
+    width: 100%;
+}
+.Data{
+    display: flex;
+    margin: 1.4rem;
+    padding: 1.4rem;
+    border-radius: 0.4rem;
+    border-bottom: 1px solid #212F3D;
+}
+
+.Data:hover{
+    cursor: pointer;
+    background-color: #EAF2F8;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+.Main1{
+    display: grid;
+    font-family: 'Taviraj', serif;
+    font-size: 14px;
+    color: #212F3D;
+    width: 70%;
+}
+.iconlabel{
+    color: #5B2C6F;
+    margin-right: 0.2rem;
+}
+#last_count_student{
+    color: rgb(20, 18, 168);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Main2{
+    width: 20%;
+}
+.Main3{
+    width: 10%;
+}
+.CountStudent{
+    font-size: 14px;
+    font-family: 'prompt',sans-serif;
+}
+.RegisActivity{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    background: #58D68D;
+    font-family: 'prompt',sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.RegisActivity:hover{
+    cursor: pointer;
+    font-size: 22px;
+    background: #049e49;
+}
+
+.CancelActivity{
+    display: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    background: #E74C3C;
+    font-family: 'prompt',sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+.CancelActivity:hover{
+    cursor: pointer;
+    background: rgb(161, 65, 54);
+    color: #fff;
+}
+
+
+#title1{
+    color: #5B2C6F;
+    font-size: 16px;
+    font-family: 'prompt',sans-serif;
+    font-weight: 700;
+}

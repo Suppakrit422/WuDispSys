@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#title_table {
+	font-weight: 800;
+	font-size: 16px;
+}
+
+.bar{
+	display: flex;
+	text-align: center;
+	padding: 1.2rem;
+	background-color: rgb(73, 7, 80);
+}
+
+/* icon home */
+.mdi-television:before {
+    content: "\F502";
+    padding-right: 0.5rem;
+}
+
+.logobrand{
+	width: 20%;		
+}
+.user{
+	width: 100%;
+    text-align: right;
+}
+.profile-text{
+	font-size: 12px;
+    color: #fff;
+}
+.userlogin{
+	font-size: 14px;
+	font-family: sans-serif;
+	margin-right: 0.2rem;
+}
+.nav-link {
+    display: block;
+    padding: 0rem 1rem;
+}
+
+.table-bordered{
+	border: 1px solid rgba(85,34,34,1.00);
+}
+.fixdata{
+    color: tomato;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#style_table th{
+	/*border: 1px solid #dee2e6;*/
+	font-size: 14px;
+	font-weight: 800;
+	font-family: 'Prompt', sans-serif;
+}
+
+#style_table td{
+	/*border: 1px solid #dee2e6;*/
+	font-size: 15px;
+
+}
+
+#form_ct{
+    border-radius: 100px;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+	height: 42px;
+	color: rgba(106,100,101,1.00);
+	font-family:"TH SarabunPSK";
+	font-size: 22px;
+	font-weight: 600;
+} /*CSS ช่อง textbox ในการค้นหา*/
+
+#btn_shape{
+	border-top-right-radius: 100px;
+	border-bottom-right-radius: 100px;
+	padding:13px 14px;
+
+}/*CSS ปุ่มค้นหา*/
+
+#card_1{
+	 text-align: -webkit-right;
+	 padding-bottom: 0rem;
+}
+
+#style_table th {
+    /* border: 1px solid #dee2e6; */
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Prompt', sans-serif;
+}
+#style_table{
+	width: 100%;
+}
+
+#footer_imp{
+	background: #ffffff;
+}
+#body{
+	font-size: 16px;
+}
+
+.breadcrumb{
+	font-family: 'Prompt',sans-serif;
+	font-size: 14px;
+	border: 1px solid #5007ad;
+}
+label{ /*รูปแบบของ label ใน form*/
+	font-family: "Prompt",sans-serif;
+	font-size: 14px;
+
+}
+.form-control {
+    font-size: 0.99rem;
+	}
+
+	.btn-inverse-primary {
+    font-family: "Prompt",sans-serif;
+}
+
+.alert1 {
+	padding:10px !important;
+	color: #3366ff;
+}
+.sty_a{
+	font-size:12px;
+	text-align: -webkit-right;
+}
+
+/*ขนาดรูปภาพ logo */
+.navbar.default-layout .navbar-brand-wrapper .navbar-brand img {
+    width: calc(255px - 80px); /*ความกว้าง logo*/
+    max-width: 100%;
+    height: 50px; /*ความสูง logo*/
+    margin: auto;
+    vertical-align: middle;
+}
+
+.text-c{
+	color: #708090
+}
+
+.icon{
+	color: #9999FF;
+}
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+.table thead th {
+    border-top: 0;
+    border-bottom-width: 1px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+/*badge color*/
+.badge-secondary {
+    /*color: #212529;*/
+    background-color: #808080;
+}
+
+.nav-link{
+	font-size: 12px;
+}
+.showmsg{
+	font-family: sans-serif;
+	text-align: center;
+    font-size: 13px;
+    padding: 2rem;
+}
+
+

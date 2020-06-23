@@ -1,0 +1,185 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  /* Style the search field */
+  form.example input[type=text] {
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+	float: left;
+	width: 80%;
+	background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+	float: left;
+	width: 20%;
+	padding: 10px;
+	background: #2196F3;
+	color: white;
+	font-size: 17px;
+	border: 1px solid grey;
+	border-left: none; /* Prevent double borders */
+	cursor: pointer;
+  }
+  
+  form.example button:hover {
+	background: #0b7dda;
+  }
+  
+  /* Clear floats */
+  form.example::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+#title6 {
+	font-size: 16px;
+}
+#title7 {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+#title8 {
+	display: grid;
+    font-family: 'Taviraj', serif;
+    font-size: 14px;
+    color: #212F3D;
+    width: 70%;
+}
+
+#last_count_student2 {
+	color: #ff0000;
+	font-size: 35px;
+	font-weight: 700;
+}
+#fasfa-users {
+	color: orange;
+	font-size: 70px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#showscorestudent {
+	font-size: 50px;
+}
+
+#showscoreservice {
+	font-size: 30px;
+}
+
+#showscoretraining {
+	font-size: 30px;
+}
+
+.form_input {
+	width: 250px;
+	padding: 8px;
+	margin: 15px;
+}
+
+.bggreen {
+	background-color: #99FF99;
+	width: 300px;
+	padding: 8px;
+	border: 15px;
+	margin: 15px;
+	border-radius: 20px;
+}
+.lobo{
+	background-color: #99FF99;
+	width: 250px;
+	padding: 8px;
+	border: 15px;
+	margin: 15px;
+	border-radius: 45px;
+
+}
+.lobo2{
+	background-color: rgb(255, 165, 0);
+	width: 250px;
+	padding: 8px;
+	border: 15px;
+	margin: 15px;
+	border-radius: 45px;
+	
+
+}
+
+#fasfa-chalkboard-teacher {
+	color: black;
+	font-size: 70px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#farfa-calendar-check {
+	color: black;
+	font-size: 70px;
+	text-shadow: 1px 1px 1px #000;
+}
+.Main4{
+    display: grid;
+    font-family: 'Taviraj', serif;
+    font-size: 14px;
+    color: #212F3D;
+    width: 80%;
+}
+.Main5{
+    width: 20%;
+}
+.Main6{
+	width: 80px;
+	text-align: center;
+	font-size: 28px;
+}
+.Main7{
+	
+    width: -100px;
+}
+
+.Data1{
+    display: flex;
+    margin: 0.1rem;
+    padding: 0.1rem;
+}
+.Main8{
+	width: 80px;
+	text-align: center;
+	font-size: 30px;
+}
+.card-header1{
+    color: #FFF;
+	background: rgb(74, 35, 90);
+	border-radius: 3px;
+	height: 100px;
+}
+.modal-header2{
+	color: #FFF;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    padding: 0.8rem 0.2rem 0.2rem 1.2rem;
+	background: rgb(74, 35, 90);
+	border-radius: 4px;
+	height: 100px;
+}
+.close{
+	color: #FFF;
+	padding: 0.8rem 0.2rem 0.2rem 1.2rem;
+size: 500px;
+}
+.close1{
+	color:#000000;
+	padding: 0.8rem 0.2rem 0.2rem 1.2rem;
+size: 500px;
+}
+.description{
+    margin-top: 50px;
+    text-align:left;
+    font-family: calibri;
+    font-size: 16px;
+    color: gray;
+}
+a:link, a:visited, a:active{color: #4F81BC;}
+

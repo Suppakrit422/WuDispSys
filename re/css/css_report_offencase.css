@@ -1,0 +1,185 @@
+@media print {
+    .page-break {
+        display: block;
+        height: 1px;
+        page-break-before: always;
+    }
+    .page-break-no {
+        display: block;
+        height: 1px;
+        page-break-after: avoid;
+    }
+    BODY {
+        font-size: 20px;
+        line-height: 120%;
+        background: white;
+    }
+    .PrintReport {
+        height: 100%;
+        margin: 0px 0px 0px 0px;
+        display: block;
+    }
+    .bar {
+        display: none;
+    }
+    .card-body {
+        font-size: 20px;
+        display: block;
+    }
+    .Print {
+        display: none;
+    }
+    .dataTables_info {
+        display: none;
+    }
+    .dataTables_paginate {
+        display: none;
+    }
+    .h2 {
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Taviraj';
+    }
+    .date_print {
+        font-size: 14px;
+        margin-bottom: unset;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 1000px;
+        height: 50px;
+        padding: 20px 0;
+        padding: 15px 35px;
+    }
+}
+
+@media screen {
+    .HeaderReport {
+        display: none;
+    }
+    .Print {
+        display: block;
+    }
+    .date_print {
+        display: none;
+    }
+}
+
+.test {
+    display: none;
+}
+
+.HeaderGroup {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Taviraj';
+}
+
+.group {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Taviraj';
+}
+
+
+/* .th {
+    border: 1px solid black;
+} */
+
+.card-body {
+    /* border: 1px solid black; */
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Taviraj';
+}
+
+
+/* .data_activity_participants {
+    border-radius: 100%;
+    border: 10px solid rgb(2, 2, 54);
+    border-collapse: separate; */
+
+
+/* } */
+
+
+/* .style_table {
+    border-radius: 100%;
+    border: 10px solid rgb(2, 2, 54);
+    border-collapse: separate;
+} */
+
+
+/* 
+.dataTables_info {
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Taviraj';
+} */
+
+.thead {
+    font-family: 'Taviraj';
+}
+
+.odd {
+    font-size: 16px;
+    font-weight: 500px;
+    font-family: 'Taviraj';
+}
+
+.chart_name {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Taviraj';
+}
+
+.dataTables_filter {
+    display: none;
+}
+
+.h2 {
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Taviraj';
+}
+
+a:link {
+    color: green;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: black;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: rgb(211, 106, 8);
+}
+
+
+/* selected link */
+
+a:active {
+    color: rgb(130, 13, 208);
+}
+
+.Print {
+    text-align: right;
+}
+
+
+/* .container-fluid {
+    line-height: 35px;
+    font-size: 16px;
+} */
+
+.card-header {
+    /* line-height: 35px; */
+    font-size: 20px;
+}

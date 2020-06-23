@@ -1,0 +1,27 @@
+
+.modal-title{
+    font-family: 'prompt',sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.fa-exclamation-circle{
+    margin-right: 0.2rem;
+}
+.title1{
+    color:#5D6D7E;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.filetd{
+    text-align: center;
+}
+.ImgFolder{
+    cursor: pointer;
+    max-width: 20px;
+    max-height: 20px;
+}
+.ImgFolder:hover{
+    max-width: 22px;
+    max-height: 22px;
+}

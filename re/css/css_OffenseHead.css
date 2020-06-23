@@ -1,0 +1,57 @@
+.modal-title{
+    font-family: 'prompt',sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.label{
+    font-size: 14px;
+    font-family: 'Taviraj', sans-serif;
+}
+.InputFile{
+    margin-top: 0.2rem;
+}
+.datasubmit{
+    font-size: 14px;
+}
+.fixdata{
+    color: tomato;
+    font-size: 18px;
+    font-weight: 600;
+}
+.title1{
+    text-align: right;
+}
+.title2{
+    color: #AEB6BF;
+    font-size: 12px;
+    font-family: 'Taviraj', sans-serif;
+}
+.fa-exclamation-circle{
+ margin-right: 0.2rem;
+}
+.filetd{
+    text-align: center;
+}
+.tddetail{
+    text-align: center;
+}
+.fileicon{
+    font-size: 18px;
+    color: #D5DBDB;
+}
+.fileicon:hover{
+    cursor: pointer;
+    color: #5DADE2;
+    opacity: 1;
+    transition: 0.3s;
+}
+.ImgFolder{
+    cursor: pointer;
+    max-width: 20px;
+    max-height: 20px;
+    border-radius: 0% !important;
+}
+.ImgFolder:hover{
+    max-width: 22px;
+    max-height: 22px;
+}

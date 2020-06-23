@@ -1,0 +1,39 @@
+.content-wrapper {
+    height: 100%;
+}
+.MainMenu{
+    height: 90%;
+}
+.container-fluid{
+    height: 100%;
+}
+.ReportGraph{
+    padding: 13.5rem;
+    text-align: center;
+}
+.ReportGraph:hover{
+    cursor: pointer;
+    background-color: #16A085 ;
+    color: #F4D03F;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+.ReportTable{
+    padding: 13.5rem;
+    text-align: center;
+}
+.ReportTable:hover{
+    cursor: pointer;
+    background-color: #16A085;
+    color: #F4D03F;
+    transition: 0.3s;
+    opacity: 0.8;
+}
+.icongraph{
+    font-size: 80px;
+}
+.TextStyReport{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'prompt',sans-serif;
+}

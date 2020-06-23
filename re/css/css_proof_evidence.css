@@ -1,0 +1,54 @@
+#idsort{
+    width: 5%;
+}
+#datetime{
+    width: 10%;
+}
+#studentid{
+    width: 10%;
+}
+#lfname{
+    width: 30%;
+}
+#school{
+    width: 30%;
+}
+#check{
+    width: 10%;
+}
+#file{
+    font-size: 16px;
+}
+#committed_date{
+    margin-left: 0.5rem;
+}
+#img_notify{
+    font-size: 18px;
+}
+#no_file{
+    color:rgb(92, 95, 95);
+    font-size: 12px;
+}
+.title{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    font-family: 'Taviraj', sans-serif;
+    font-size: 12px;
+}
+.title2{
+    font-size: 12px;
+    font-family: 'Taviraj', sans-serif;
+}
+.committed_time{
+    margin-left: 120px;
+}
+.label{
+    font-size: 14px;
+    font-family: 'Taviraj', sans-serif;
+    font-weight: 600;
+}
+.modal-title{
+    font-weight: 600;
+    font-family: 'prompt',sans-serif;
+    font-size: 18px;
+}

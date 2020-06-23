@@ -1,0 +1,263 @@
+@media print {
+    .HeaderReport {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid #000;
+    }
+    .part1 {
+        margin-right: 0%;
+    }
+    .part2 {
+        display: grid;
+    }
+    .part3{
+        display:grid;
+    }
+    .logofile {
+        max-width: 150px;
+        max-height: 150px;
+    }
+    .part4{
+        margin-top: 1%;
+    }
+    .part5{
+        margin-top: 1%;
+    }
+    .title1 {
+        font-size: 35px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+        margin: 0%;
+        padding: 0%;
+    }
+    .title2 {
+        font-size: 30px;
+        font-weight: 300;
+        font-family: 'TH SarabunPSK', sans-serif;
+        margin: 0%;
+        padding: 0%;
+    }
+    .title3 {
+        font-size: 25px;
+        font-weight: 300;
+        font-family: 'TH SarabunPSK', sans-serif;
+        margin: 0%;
+        padding: 0%;
+    }
+    .DetailActivity{
+        margin-top: 2%;
+    }
+    #title4{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #title5{
+        font-size: 25px;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #title6{
+        font-size: 25px;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #title7{
+        font-size: 25px;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #title8{
+        font-size: 25px;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #title9{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #title10{
+        font-size: 25px;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #th1{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #th2{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #th3{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #th4{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #th5{
+        font-size: 25px;
+        font-weight: 800;
+        font-family: 'TH SarabunPSK', sans-serif;
+    }
+    #tr1{
+        margin-top: 5%;
+    }
+}
+
+#idsort {
+    width: 5%;
+}
+
+#detail_activity_regis {
+    width: 60%;
+    text-align: center;
+}
+
+#person_control {
+    width: 20%;
+    text-align: center;
+}
+
+#manage {
+    width: 10%;
+    text-align: center;
+}
+
+#person_control {
+    text-align: center;
+}
+
+#open_name_participants {
+    color: #5DADE2;
+    font-size: 18px;
+}
+
+#open_name_participants:hover {
+    cursor: pointer;
+    font-size: 22px;
+    color: #58D68D;
+    transition: 0.2s;
+    opacity: 2;
+}
+
+#file {
+    text-align: center;
+}
+
+#title1 {
+    font-size: 14px;
+}
+
+#iconfolder {
+    font-size: 18px;
+    color: #365372;
+}
+
+#data_activity_participants {
+    border: 0px !important;
+}
+
+#activity_name_modal {
+    font-family: 'prompt', sans-serif;
+    font-size: 18px;
+}
+
+#sortid_student {
+    width: 10%;
+    font-size: 14px;
+    font-family: 'prompt', sans-serif;
+}
+
+#id_student {
+    width: 10%;
+    font-size: 14px;
+    font-family: 'prompt', sans-serif;
+}
+
+#FLstudent {
+    width: 50% !important;
+    font-size: 14px;
+    font-family: 'prompt', sans-serif;
+}
+
+#email {
+    width: 30% !important;
+    font-size: 14px;
+    font-family: 'prompt', sans-serif;
+}
+#no_file{
+    color: rgb(141, 141, 141);
+    font-size: 12px;
+}
+
+.table.table-bordered th {
+    font-family: 'prompt',sans-serif !important;
+}
+
+.PrintDataTableReport {
+    display: none;
+    width: 100%;
+}
+
+.trdata {
+    font-size: 14px;
+}
+
+.ImgPrint {
+    max-width: 20px;
+    max-height: 50px;
+}
+
+.ImgPrint {
+    cursor: pointer;
+}
+
+.ShowDataParticipants {
+    margin-top: 0.4rem;
+}
+
+.DetailActivity {
+    display: grid;
+}
+
+.TitleActivity {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: left;
+    font-family: 'prompt', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.HeaderData {
+    display: flex;
+    width: 100%;
+    text-align: right;
+}
+
+.Head {
+    width: 60%;
+    text-align: left;
+    padding-top: 1.5rem;
+}
+
+.DetailData {
+    width: 100%;
+    text-align: right;
+    display: grid;
+    font-size: 14px;
+}
+input[type="checkbox"]{
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+  }
+@media print {
+    .PrintDataTableReport {
+        display: block;
+        width: 100%;
+    }
+}

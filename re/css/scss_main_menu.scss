@@ -1,0 +1,85 @@
+.content-wrapper {
+    height: 100%;
+}
+
+.MainMenu {
+    height: 90%;
+}
+
+.container-fluid {
+    height: 100%;
+    font-size: 18px;
+    font-family: "prompt", sans-serif;
+}
+
+.ReportGraph {
+    padding: 13.5rem;
+    text-align: center;
+}
+
+.ReportTable {
+    padding: 13.5rem;
+    text-align: center;
+}
+
+.icongraph {
+    font-size: 80px;
+}
+
+.TextStyReport {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "prompt", sans-serif;
+}
+
+.Report {
+    width: 30rem;
+    padding: 1rem;
+    background: #efeded;
+    border-radius: 0.5rem;
+    border: 1px solid #666363;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'prompt', sans-serif;
+    width: 50rem;
+    text-align: left;
+}
+
+.btn-inverse-primary:hover {
+    color: #ffffff;
+    background-color: #308ee0;
+    border-color: #308ee0;
+}
+
+a:link {
+    color: green;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: black;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: blue;
+}
+
+
+/* selected link */
+
+a:active {
+    color: darkmagenta;
+}
+
+.card-header {
+    font-size: 20px;
+    font-family: "prompt", sans-serif;
+}

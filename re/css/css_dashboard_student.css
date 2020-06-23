@@ -1,0 +1,62 @@
+#icon_alert {
+    color: #99A3A4;
+    font-size: 20px;
+}
+
+.modal-body {
+    height: 280px;
+    overflow-y: auto;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.NotifyAlert {
+    width: 50%;
+    text-align: left;
+}
+
+.Message {
+    color: #ABB2B9;
+}
+
+.NotShowMessage {
+    width: 50%;
+    text-align: left;
+}
+
+.ButtonClose {
+    width: 50%;
+    text-align: right;
+}
+
+.MessageBackground {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.4rem;
+    border-radius: 0.5rem;
+    border: 1px solid #34495E;
+    padding: 0.5rem;
+    background: beige;
+}
+
+.AceeptAllegation {
+    font-size: 12px;
+    text-align: right;
+}
+
+.Detail {
+    padding-left: 0.5rem;
+}
+
+.NotificationAlert {
+    font-size: 14px;
+}
+
+.HeardMessage {
+    color: #3500b1;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'prompt', sans-serif;
+}
